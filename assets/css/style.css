@@ -1,6 +1,7 @@
 body {
 	background-color: black;
 	color: white;
+	font: 18px arial, sans-serif;
 
 }
 
@@ -8,24 +9,27 @@ body {
 /*	margin: auto 0;  */
 }
 
-#topics {
+#topicsArea {
 	background-color: blue;
 	margin: auto;
-	width: 60%;
 	height: 30px;
-	align-content: center;
+	padding: 10px;
 }
 
-.buttonStyle { 
-	border-radius: 12px;
+button:hover { 
+	background: green;
+ }
+
+ button:active {
+ 	background: gray;
  }
 
 #topic-view {
-	margin: auto;
-	width: 40%;
+	padding: 10px;
+	float: left;
  }
 
 #gifsGoHere {
 	margin: auto;
-	width: 60%;
+	width: 70%;
 }
